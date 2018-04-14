@@ -25,6 +25,7 @@ The following work has been done based on the original API:
 run **frozenmodel_to_tensorboard.py** and follow the command line instructions <br />
 (opt: change **MODEL_NAME**  inside if necessary)
 - run **object_detection.py** Script  <br />
+- For JetsonTX2 run **object_detectionjetson.py** Script  <br />
 - Enjoy!
 <br />
 
@@ -37,5 +38,5 @@ run **frozenmodel_to_tensorboard.py** and follow the command line instructions <
 
 ## Current Performance on SSD Mobilenet (with|without visualization):
 - Dell Laptop with i7 and GeForce GTX 1050: **35fps | 45fps**
-- Nvidia Jetson Tx2: **8fps | 10 fps**
+- Nvidia Jetson Tx2: **8fps | 12 fps**
  <br />
