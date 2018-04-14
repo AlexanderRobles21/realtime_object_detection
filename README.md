@@ -24,8 +24,9 @@ The following work has been done based on the original API:
 - if you want to import the pre-trained frozen Model *.pb file* to Tensorboard to visualize the Graph, <br />
 run **frozenmodel_to_tensorboard.py** and follow the command line instructions <br />
 (opt: change **MODEL_NAME**  inside if necessary)
-- run **object_detection.py** Script  <br />
+- run **object_detection10.py** or **object_detection.py** Scripts  <br />
 - For JetsonTX2 run **object_detectionjetson.py** Script  <br />
+- For change parameters such as video_input or fps **config.yml** Script  <br />
 - Enjoy!
 <br />
 
