@@ -1,4 +1,4 @@
-# Realtime-Object-Detection
+# Realtime-Object-Detection (Jetson TX2)
 My Version of [Tensorflows Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection).<br />
 <br />
 
