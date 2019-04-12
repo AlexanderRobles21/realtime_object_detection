@@ -7,7 +7,7 @@ The Idea was to create a realtime capable object detection pipeline on various m
 Plug and play, ready to use without deep previous knowledge.<br /> <br />
 The following work has been done based on the original API:
 - Capturing frames of a Camera-Input using OpenCV in seperate thread to increase performance
-- Calculate Fps, print the current value to console in a given intervall aswell as the overall mean value at the end
+- Calculate fps, print the current value to console in a given intervall aswell as the overall mean value at the end
 - Allows Models to grow GPU memory allocation. *(ssd_mobilenet_v11_coco needs 350 MB)*
 - Added Option for detection without visualization to increase performance
 - Added optional automated model download from [model-zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) if necessary
@@ -41,3 +41,5 @@ run **frozenmodel_to_tensorboard.py** and follow the command line instructions <
 - Dell Laptop with i7 and GeForce GTX 1050: **35fps | 45fps**
 - Nvidia Jetson Tx2: **8fps | 12 fps**
  <br />
+
+ *Pull request and open an issue are very welcome!* :+1:
